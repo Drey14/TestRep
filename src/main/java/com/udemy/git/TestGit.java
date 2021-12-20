@@ -8,7 +8,7 @@ public class TestGit {
 
         new TestGit().add(a,b);
         new TestGit().sub(a,b);
-
+        new TestGit().mod(a,b);
     }
 
     void add(int a, int b) {
@@ -17,6 +17,9 @@ public class TestGit {
 
     void sub(int a, int b) {
         System.out.println(a-b);
+    }
+    void mod(int a, int b) {
+        System.out.println(a*b);
     }
 
 }
