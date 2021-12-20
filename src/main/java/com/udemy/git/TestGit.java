@@ -7,12 +7,16 @@ public class TestGit {
         int b = 2;
 
         new TestGit().add(a,b);
-
+        new TestGit().sub(a,b);
 
     }
 
     void add(int a, int b) {
         System.out.println(a+b);
+    }
+
+    void sub(int a, int b) {
+        System.out.println(a-b);
     }
 
 }
