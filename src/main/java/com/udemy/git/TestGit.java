@@ -9,19 +9,28 @@ public class TestGit {
         new TestGit().add(a,b);
         new TestGit().sub(a,b);
         new TestGit().mod(a,b);
-        new TestGit().del(a,b);
+        new TestGit().del(a, b);
+        new TestGit().exp(a);
     }
 
     void add(int a, int b) {
         System.out.println(a+b);
     }
+
     void sub(int a, int b) {
-        System.out.println(a-b);
+        System.out.println(a - b);
     }
+
     void mod(int a, int b) {
-        System.out.println(a*b);
+        System.out.println(a * b);
     }
+
     void del(int a, int b) {
-        System.out.println(a/b);
+        System.out.println(a / b);
     }
+
+    void exp(int a) {
+        System.out.println(a * a);
+    }
+
 }
