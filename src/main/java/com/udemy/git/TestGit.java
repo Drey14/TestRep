@@ -11,6 +11,7 @@ public class TestGit {
         new TestGit().mod(a,b);
         new TestGit().del(a, b);
         new TestGit().exp(a);
+        new TestGit().del2(a);
     }
 
     void add(int a, int b) {
@@ -32,5 +33,10 @@ public class TestGit {
     void exp(int a) {
         System.out.println(a * a);
     }
+
+    void del2(int a) {
+        System.out.println(a / 2);
+    }
+
 
 }
